@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header>
+      <h1>RE:MEMBER!</h1>
+      <p class="between">(Round <span class="round">1</span> of 3)</p>
+      <button class="btn again">Again!</button>
+    </header>
+    <main>
+      <div class="imagebox"></div>
+    </main>
+    <bottom>
+      <button class="btn start">Start!</button>
+      <button class="btn ready hidden">Ready!</button>
+
+      <div class="modal winner hidden">
+        <h1>Correct! You win! 🤗</h1>
+      </div>
+      <div class="modal loser hidden">
+        <h1>Oops! You lose! 🥲</h1>
+      </div>
+      <div class="modal allwinner hidden">
+        <h1>Correct! You beats the game! 🤗</h1>
+      </div>
+      <div class="overlay hidden"></div>
+    </bottom>
+    <script src="script.js"></script>
+  </body>
+</html>
